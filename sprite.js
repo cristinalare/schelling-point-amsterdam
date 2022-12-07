@@ -1,5 +1,5 @@
 const ajax = new XMLHttpRequest();
-ajax.open("GET", "https://schellingpoint.gitcoin.co/images/sprite.svg", true);
+ajax.open("GET", "https://cristinalare.github.io/schelling-point-amsterdam/images/sprite.svg", true);
 ajax.send();
 ajax.onload = function(e) {
     let div = document.createElement("div");
